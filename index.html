@@ -211,6 +211,9 @@ nav.primary-nav a.active::after{content:"";position:absolute;left:0;right:0;bott
 }
 :root[data-theme="light"] .hero-inner h1{
   background: linear-gradient(135deg, var(--text) 30%, var(--cyan) 70%, var(--blue) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
   text-shadow: none;
 }
 @keyframes heroTextPop {
