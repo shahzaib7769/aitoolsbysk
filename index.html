@@ -1914,9 +1914,31 @@ function viewBlog() {
               <div class="blog-thumb">${p.category}</div>
               <div class="bc-body">
                 <div class="blog-meta">${p.date} &middot; ${p.category}</div>
-                <h3><a href="https://aitoolsbysk.blogspot.com/2026/08/${p.slug}.html">${p.title}</a></h3>
+                <h3><a href="${({
+              "AI Tools for YouTube Creators: A Complete Workflow":"https://aitoolsbysk.blogspot.com/2026/08/ai-tools-for-youtube-creators-a-complete-workflow.html",
+              "How to Choose the Right AI Tool for Your Needs":"https://aitoolsbysk.blogspot.com/2026/08/how-to-choose-the-right-ai-tool-for-your-needs.html",
+              "Best AI Tools for Faceless YouTube Channels":"https://aitoolsbysk.blogspot.com/2026/08/best-ai-tools-for-faceless-youtube-channels.html",
+              "AI Video Generation vs. AI Video Editing":"https://aitoolsbysk.blogspot.com/2026/08/ai-video-generation-vs-ai-video-editing.html",
+              "AI Voiceovers for YouTube: A Practical Guide":"https://aitoolsbysk.blogspot.com/2026/08/ai-voiceovers-for-youtube-a-practical-guide.html",
+              "AI Image Generators for YouTube Thumbnails":"https://aitoolsbysk.blogspot.com/2026/08/ai-image-generators-for-youtube-thumbnails.html",
+              "AI Automation for Small Businesses":"https://aitoolsbysk.blogspot.com/2026/08/ai-automation-for-small-businesses.html",
+              "AI SEO Tools for Smarter Content Strategy":"https://aitoolsbysk.blogspot.com/2026/08/ai-seo-tools-for-smarter-content-strategy.html",
+              "Build a One-Person AI Content Studio":"https://aitoolsbysk.blogspot.com/2026/08/build-a-one-person-ai-content-studio.html",
+              "Essential AI Tools for Small Businesses":"https://aitoolsbysk.blogspot.com/2026/08/essential-ai-tools-for-small-businesses.html"
+            }[p.title] || "#") }">${p.title}</a></h3>
                 <p>${p.excerpt}</p>
-                <a href="https://aitoolsbysk.blogspot.com/2026/08/${p.slug}.html" class="btn btn-ghost btn-sm" style="margin-top:10px;">Read Article ${ICONS.arrow}</a>
+                <a href="${({
+              "AI Tools for YouTube Creators: A Complete Workflow":"https://aitoolsbysk.blogspot.com/2026/08/ai-tools-for-youtube-creators-a-complete-workflow.html",
+              "How to Choose the Right AI Tool for Your Needs":"https://aitoolsbysk.blogspot.com/2026/08/how-to-choose-the-right-ai-tool-for-your-needs.html",
+              "Best AI Tools for Faceless YouTube Channels":"https://aitoolsbysk.blogspot.com/2026/08/best-ai-tools-for-faceless-youtube-channels.html",
+              "AI Video Generation vs. AI Video Editing":"https://aitoolsbysk.blogspot.com/2026/08/ai-video-generation-vs-ai-video-editing.html",
+              "AI Voiceovers for YouTube: A Practical Guide":"https://aitoolsbysk.blogspot.com/2026/08/ai-voiceovers-for-youtube-a-practical-guide.html",
+              "AI Image Generators for YouTube Thumbnails":"https://aitoolsbysk.blogspot.com/2026/08/ai-image-generators-for-youtube-thumbnails.html",
+              "AI Automation for Small Businesses":"https://aitoolsbysk.blogspot.com/2026/08/ai-automation-for-small-businesses.html",
+              "AI SEO Tools for Smarter Content Strategy":"https://aitoolsbysk.blogspot.com/2026/08/ai-seo-tools-for-smarter-content-strategy.html",
+              "Build a One-Person AI Content Studio":"https://aitoolsbysk.blogspot.com/2026/08/build-a-one-person-ai-content-studio.html",
+              "Essential AI Tools for Small Businesses":"https://aitoolsbysk.blogspot.com/2026/08/essential-ai-tools-for-small-businesses.html"
+            }[p.title] || "#") }" class="btn btn-ghost btn-sm" style="margin-top:10px;">Read Article ${ICONS.arrow}</a>
               </div>
             </article>
           `).join('')}
